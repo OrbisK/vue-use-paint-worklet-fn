@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "vue-composable-starter"
+  name: "@orbisk/vue-use-paint-worklet"
   text: "A Vue Composable"
   tagline: My great project tagline
   actions:

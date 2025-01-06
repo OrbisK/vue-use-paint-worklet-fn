@@ -3,13 +3,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'vue-composable-starter',
+  title: '@orbisk/vue-use-paint-worklet',
   description: 'A Vue Composable',
   vite: {
     resolve: {
       alias: [
         {
-          find: 'vue-composable-starter',
+          find: '@orbisk/vue-use-paint-worklet',
           replacement: resolve(__dirname, '../../src/index.ts'),
         },
       ],

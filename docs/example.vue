@@ -1,5 +1,5 @@
 <script setup>
-import { useToggle } from 'vue-composable-starter'
+import { useToggle } from '@orbisk/vue-use-paint-worklet'
 
 const [toggleable, toggle] = useToggle()
 </script>

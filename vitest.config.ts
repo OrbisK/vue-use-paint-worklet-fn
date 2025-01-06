@@ -17,7 +17,7 @@ export default defineConfig({
   resolve: {
     alias: [
       {
-        find: 'vue-composable-starter',
+        find: '@orbisk/vue-use-paint-worklet',
         replacement: resolve(__dirname, './src/index.ts'),
       },
     ],

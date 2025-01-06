@@ -12,7 +12,7 @@
     "moduleResolution": "node",
 
     "paths": {
-      "vue-composable-starter": ["./src/index.ts"]
+      "@orbisk/vue-use-paint-worklet": ["./src/index.ts"]
     },
     "resolveJsonModule": true,
     "types": [

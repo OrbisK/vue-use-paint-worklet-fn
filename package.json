@@ -1,15 +1,15 @@
 {
-  "name": "vue-composable-starter",
+  "name": "@orbisk/vue-use-paint-worklet",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@9.15.3",
-  "description": "🪝 Minimalist starting point for your next Vue Composable",
-  "author": "Yaël GUILLOUX <yael.guilloux@gmail.com>",
+  "description": "🪝 Vue Composable around Paint Worklet API",
+  "author": "Robin Kehl <robin.kehl@singular-it.de>",
   "license": "MIT",
-  "homepage": "https://github.com/Tahul/vue-composable-starter#readme",
-  "repository": "https://github.com/Tahul/vue-composable-starter",
+  "homepage": "https://github.com/OrbisK/vue-use-paint-worklet-fn#readme",
+  "repository": "https://github.com/OrbisK/vue-use-paint-worklet-fn",
   "bugs": {
-    "url": "https://github.com/Tahul/vue-composable-starter/issues"
+    "url": "https://github.com/OrbisK/vue-use-paint-worklet-fn/issues"
   },
   "keywords": [
     "vue",
@@ -46,7 +46,6 @@
     "dev": "pnpm dev:vite",
     "build": "unbuild && pnpm build:nuxt-module",
     "build:nuxt-module": "nuxt-module-build build ./src/nuxt --outDir ../../dist/nuxt",
-    "prepare": "pnpm prepare:nuxt",
     "lint": "eslint --flag unstable_ts_config .",
     "lint:fix": "pnpm run lint --fix",
     "test:unit": "vitest run",
@@ -57,7 +56,6 @@
     "dev:vite": "pnpm --filter playgrounds-vite dev",
     "build:nuxt": "nuxi build playgrounds",
     "start:nuxt": "nuxi preview playgrounds",
-    "prepare:nuxt": "pnpm --filter playgrounds-nuxt prepare:nuxt",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",

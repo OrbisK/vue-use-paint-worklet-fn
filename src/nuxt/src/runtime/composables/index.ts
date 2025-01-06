@@ -1,1 +1,1 @@
-export { useToggle } from 'vue-composable-starter'
+export { useToggle } from '@orbisk/vue-use-paint-worklet'
