@@ -1,7 +1,7 @@
 {
   "name": "@orbisk/vue-use-paint-worklet",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "packageManager": "pnpm@9.15.3",
   "author": "Robin Kehl <robin.kehl@singular-it.de>",
   "license": "MIT",
