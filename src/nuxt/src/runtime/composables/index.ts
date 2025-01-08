@@ -1,1 +1,1 @@
-export { useToggle } from '@orbisk/vue-use-paint-worklet'
+export { usePaintWorkletElementFn } from '@orbisk/vue-use-paint-worklet'

@@ -27,7 +27,7 @@ export default defineNuxtModule<ModuleOptions>({
     // Transpile necessary packages
     if (!nuxt.options.build.transpile)
       nuxt.options.build.transpile = []
-    const transpileList = ['defu', '@orbisk/vue-use-paint-worklet', '@vueuse/shared', '@vueuse/core']
+    const transpileList = ['defu', '@orbisk/vue-use-paint-worklet', '@vueuse/core']
     transpileList.forEach((pkgName) => {
       if (!nuxt.options.build.transpile.includes(pkgName))
         nuxt.options.build.transpile.push(pkgName)

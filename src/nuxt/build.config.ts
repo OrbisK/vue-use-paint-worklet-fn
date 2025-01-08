@@ -11,7 +11,6 @@ export default defineBuildConfig({
     'vue',
     'defu',
     'csstype',
-    '@vueuse/shared',
     'framesync',
     'style-value-types',
     '@vue/compiler-core',
