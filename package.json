@@ -1,9 +1,8 @@
 {
   "name": "@orbisk/vue-use-paint-worklet",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@9.15.3",
-  "description": "🪝 Vue Composable around Paint Worklet API",
   "author": "Robin Kehl <robin.kehl@singular-it.de>",
   "license": "MIT",
   "homepage": "https://github.com/OrbisK/vue-use-paint-worklet-fn#readme",
@@ -61,10 +60,11 @@
     "docs:preview": "vitepress preview docs",
     "test:browser": "vitest --workspace=vitest.workspace.js",
     "prepack": "pnpm build",
-    "release": "pnpm test:unit && pnpm changelogen --release && pnpm publish --access public && git push --follow-tags"
+    "release": "pnpm changelogen --release && pnpm publish --access public && git push --follow-tags"
   },
-  "peerDependencies": {
-    "vue": ">=3.0.0"
+  "dependencies": {
+    "@vueuse/core": "^12.3.0",
+    "vue": "^3.5.13"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.8.0",
